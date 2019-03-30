@@ -4,7 +4,7 @@ body{
 }
 .background{
     /* background-image: url("Images/background.jpeg"); */
-    background-image: url("Images/line.png");
+    background-image: url("../Images/line.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* height: 100%; */
@@ -14,12 +14,13 @@ body{
     font-family: arial;
     height: auto;
     vertical-align: middle;
+    color: #aaaaaa;
 }
 /* span{
     vertical-align: 50vh;
 } */
 ul{
-    list-style-type: none;
+    list-style: none;
 }
 
 .ig{
@@ -35,7 +36,7 @@ ul{
 }
 @media screen and (max-width: 768px) {
     .background {
-        background-image: url("Images/mobile.jpeg");
+        background-image: url("../Images/mobile.jpeg");
       /* background-image: none; */
         background-color: #2e303a;
         background-size: cover;
