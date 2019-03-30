@@ -28,7 +28,7 @@ ul:nth-child(1){
     height: 10%;
 }
 .links{
-    margin-bottom: 199px;
+    margin-top: 100px;
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
     .background {
