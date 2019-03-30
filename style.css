@@ -5,7 +5,6 @@ body{
     background-image: url("Images/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-height: 50vh;
     height: 100%;
 }
 .content{
@@ -20,29 +19,35 @@ body{
 ul{
     list-style-type: none;
 }
-ul:nth-child(1){
-    float: right;
-}
+
 .ig{
-    width: 10%;
-    height: 10%;
+    height: 3vh;
+    transition: width 0.7s, height 0.7s;
+}
+.ig:hover{
+    height: 4vh;
 }
 .links{
-    margin-top: 100px;
+    margin-top: 85vh;
+    text-align: center;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .background {
         background-image: url("Images/mobile.jpeg");
       /* background-image: none; */
         background-color: #2e303a;
+        background-size: cover;
+        height: 100%;
     }
     .content{
         color: white;
-        font-size: 2vh;
+        font-size: 2vmin;
     }
     .ig{
-        width: 10%;
-        height: 10%;
-        margin-bottom: 10px;
+        width: 8%;
+        height: 8%;
+    }
+    .links{
+        margin-top: 82vh;
     }
   }
