@@ -4,23 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
     <title>Portfolio</title>
 </head>
-<body class="background">
-    <div class="main">
-        <div class="content">
-            <h1><span>Hi! My name is Franek.</span></h1>
+<body>
+        <div class="mobile">
+            <spna></spna>
+            <spna></spna>
+            <spna></spna>
         </div>
-        <div class="menu">
-
+    <div class="main">
+        <div id="lines">
+            <div class="l"></div>
+            <div class="l" id="tip"><a href="#about"><p class="menu">ABOUT</a></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"><a href="#about"><p class="menu">PHOTOGRAPHY</a></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"><a href="#contact"><p class="menu">CONTACT</a></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+            <div class="l"></div>
+        </div>
+        <a href="#content">
+            <div class="arrow"></div>
+            <div class="arrow2"></div>
+        </a>
+        <div class="container">
+            <span class="text1"><i>Hi!</i></span>
+            <span class="text2">My name is Franek and</span>
+            <span class="text2">THIS</span>
+            <span class="text2">is my portfolio.</span>
         </div>
         <div class="links">
             <ul>
-                <li><a href="https://www.instagram.com/photoframek/" target="_blank"><img class="ig" src="Images/insta.png"></a></li>
-                <li></li>
+                <li><a href="https://www.instagram.com/photoframek/" target="_blank"><img class="ig" src="Images/ig.png"></a></li>
+                <li><a href="https://github.com/franekdev" target="_blank"><img class="ig" src="Images/git.png"></a></li>
             </ul>
         </div>
+        <nav class="nav">
+            <div class="list">
+                <a href="#lines"><div class="options">Home</div></a>
+                <a href="#content"><div class="options">About</div></a>
+                <a href="#contact"><div class="options">Contact</div></a>
+             </div>
+        </nav>
+        <div id="content">
+            <p>About</p>
+            <div id="about">
+                I am self thought front end developer located in Poland. I am passionate about photography and grpahic design.
+            </div>
+        </div>
+        <div id="photos">
+            <ul>
+                <div class="up">
+                <li><img id="kawa" src="Images/cappucino.jpeg"></li>
+                <li><img id="material" src="Images/sky.png"></li>
+            </div>
+            <div class="down">
+                <li><img id="gory" src="Images/background.jpeg"></li>
+                <li><img id="sloik" src="Images/beans.jpeg"></li>
+            </div>
+            </ul>
+        </div>
+        <div id="contact">
+            <div class="title">Contact</div>
+            <p>If You want to contact with me here is my e-mail:<i>franek.w2000@gmail.com</i> I respond within a day.</p>
+            <!-- <form action="contact.php" class="contact-form" method="post">
+                <input type="text" name="name" placeholder="Full name">
+                <input type="text" name="mail" placeholder="E-mail">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="sybmit" name="submit">SEND MAIL</button>
+            </form> -->
+        </div>
+        <footer class="footer">
+            <div class="end-list">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            @ 2019 FranekDev
+        </footer>
     </div>
 </body>
 </html>
