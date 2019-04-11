@@ -1,11 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext");
 body {
   margin: 0;
-  height: 100vh;
   font-family: 'Montserrat';
   background: url("../Images/kola.png");
-  width: 100%;
-  height: 100vh;
   background-size: auto;
 }
 
@@ -222,7 +219,7 @@ span.text:hover {
 
 .l:nth-child(9) {
   border-color: #51545e;
-  margin-left: .7vw;
+  margin-left: 2.5vw;
   opacity: 0.4;
 }
 
@@ -299,7 +296,6 @@ span.text:hover {
 }
 
 .nav {
-  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   position: -webkit-sticky;
@@ -338,16 +334,6 @@ span.text:hover {
           box-shadow: 0 0 20px black;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 #content {
   width: 100%;
   height: 50vh;
@@ -355,7 +341,7 @@ span.text:hover {
 }
 
 #about {
-  width: 70vw;
+  width: 55vw;
   height: auto;
   color: white;
   border-radius: 20px;
@@ -382,62 +368,8 @@ span.text:hover {
   margin-right: auto;
 }
 
-#photos {
-  width: 70vw;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: flexbox;
-}
-
-.up {
-  width: 50vw;
-  height: 200px;
-}
-
-.down {
-  width: 50vw;
-  height: 200px;
-}
-
-#kawa {
-  width: 20vw;
-  height: 300px;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
-  border-radius: 10px;
-  top: 0;
-}
-
-#material {
-  width: 20vw;
-  height: 300px;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
-  border-radius: 10px;
-  float: right;
-}
-
-#gory {
-  width: 20vw;
-  height: 100px;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
-  border-radius: 10px;
-}
-
-#sloik {
-  width: 20vw;
-  height: 100px;
-  -webkit-box-shadow: 0 0 20px black;
-          box-shadow: 0 0 20px black;
-  border-radius: 10px;
-  float: right;
-}
-
 #contact {
-  width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
 
 .title {
@@ -449,7 +381,7 @@ span.text:hover {
 }
 
 #contact p {
-  width: 70vw;
+  width: 55vw;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
   color: #ebebeb;
