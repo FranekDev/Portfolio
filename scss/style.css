@@ -368,6 +368,27 @@ span.text:hover {
   margin-right: auto;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #21263b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
 #contact {
   height: 50vh;
 }
@@ -413,26 +434,7 @@ span.text:hover {
 .end-list a:hover {
   color: #06e9f1;
 }
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #21263b;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 10px
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: orange; 
-}
 @media screen and (max-width: 728px) {
   body {
     background: url("../Images/kolamobile.png");

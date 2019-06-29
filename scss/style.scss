@@ -300,38 +300,26 @@ span.text:hover{
     margin-left: auto;
     margin-right: auto;
 }
-#projects{
-    width: 100%;
-    display: inline-block;
-}
-#projects p{
-    width: 50%;
-    font-size: 40px;
-    color: rgb(196, 196, 196);
-    margin-left: auto;
-    margin-right: auto;
-}
-.work{
-    width: 80vw;
-    height: 300px;
-    display: inline-block;
-}
-.bench{
-    width: 20vw;
-    height: 100%;
-}
-.material{
-    width: 20vw;
-    height: 100%;
-}
-.mnt{
-    width: 20vw;
-    height: 100%;
-}
-.bench:hover, .material:hover, .mnt:hover{
-    border-radius: 20px;
-    box-shadow: 0 0 20px black;
-}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #21263b;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: orange; 
+  }
 #contact{
     height: 50vh;
 }
