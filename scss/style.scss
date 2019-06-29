@@ -300,6 +300,38 @@ span.text:hover{
     margin-left: auto;
     margin-right: auto;
 }
+#projects{
+    width: 100%;
+    display: inline-block;
+}
+#projects p{
+    width: 50%;
+    font-size: 40px;
+    color: rgb(196, 196, 196);
+    margin-left: auto;
+    margin-right: auto;
+}
+.work{
+    width: 80vw;
+    height: 300px;
+    display: inline-block;
+}
+.bench{
+    width: 20vw;
+    height: 100%;
+}
+.material{
+    width: 20vw;
+    height: 100%;
+}
+.mnt{
+    width: 20vw;
+    height: 100%;
+}
+.bench:hover, .material:hover, .mnt:hover{
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
 #contact{
     height: 50vh;
 }
@@ -367,8 +399,9 @@ span.text:hover{
         transform: scale(1.3, 1.3);
     }
     .links{
-        left: 40%;
-        right: 40%;
+        width: 60px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .lines{
         top: 0;
