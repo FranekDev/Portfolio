@@ -3,7 +3,9 @@ $color-green: rgb(15, 178, 207);
 $color-orange: rgb(255, 193, 24);
 $color-grey: rgb(81, 84, 94);
 $left-line: 2.5vw;
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
